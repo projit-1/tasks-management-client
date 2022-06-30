@@ -39,7 +39,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <Link className='mr-3 btn' to="/">Get started</Link>
+                    <Link className='mr-3 btn' to="/Placetask">Place Your Task</Link>
 
                 </div>
             </div>
