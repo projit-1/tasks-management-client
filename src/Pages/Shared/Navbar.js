@@ -15,31 +15,32 @@ const Navbar = () => {
                                 <Link to="/">To-Do</Link>
                             </nav>
                             <nav>
-                                <Link to="/Completed">Completed</Link>
+                                <Link to="/Completed">Completed-Task</Link>
                             </nav>
                             <nav>
-                                <Link to="/Calendar">Calendar</Link>
+                                <Link to="/Calender">Calender</Link>
                             </nav>
 
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl">Task Management</a>
+                    <Link className='mr-3 btn btn-ghost normal-case text-xl' to="/">Task-Management</Link>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
                         <nav>
-                            <Link className='mr-2' to="/">To-Do</Link>
+                            <Link className='mr-3' to="/">To-Do</Link>
                         </nav>
                         <nav>
-                            <Link className='mr-2' to="/Completed">Completed</Link>
+                            <Link className='mr-3' to="/Completed">Completed-Task</Link>
                         </nav>
                         <nav>
-                            <Link className='mr-2' to="/Calendar">Calendar</Link>
+                            <Link className='mr-3' to="/Calender">Calender</Link>
                         </nav>
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn">Get started</a>
+                    <Link className='mr-3 btn' to="/">Get started</Link>
+
                 </div>
             </div>
         </div>
