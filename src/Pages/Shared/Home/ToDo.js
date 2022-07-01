@@ -5,7 +5,7 @@ import Task from './Task';
 const ToDo = ({ task }) => {
     const [tasks, setTasks] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/task')
+        fetch('https://upper-lumberjack-54611.herokuapp.com/task')
             .then(res => res.json())
             .then(data => setTasks(data))
     }, [])

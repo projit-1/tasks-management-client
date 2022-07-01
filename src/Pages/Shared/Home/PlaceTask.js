@@ -7,7 +7,7 @@ const PlaceTask = () => {
     const onSubmit = (data) => {
         console.log(data)
 
-        const url = `http://localhost:5000/task`;
+        const url = `https://upper-lumberjack-54611.herokuapp.com/task`;
         fetch(url, {
             method: 'POST',
             headers: {
