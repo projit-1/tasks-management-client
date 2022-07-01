@@ -1,10 +1,10 @@
 [
     {
         "_id": 1,
-        "name": "Web development with Simple HTML",
-        "usedtools": "Simple HTML",
-        "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        "taskName": "Web development with Simple HTML",
+        "usesTools": "Simple HTML",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "Description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
         "_id": 2,

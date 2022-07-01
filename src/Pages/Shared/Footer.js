@@ -7,8 +7,9 @@ const Footer = () => {
                 <div class="grid grid-flow-col gap-4">
                     <a class="link link-hover">About us</a>
                     <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Privacy</a>
                     <a class="link link-hover">Jobs</a>
-                    <a class="link link-hover">Press kit</a>
+
                 </div>
                 <div>
                     <div class="grid grid-flow-col gap-4">
@@ -18,7 +19,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+                    <p>Copyright © 2022 - All right reserved by Digital Task Management Ltd</p>
                 </div>
             </footer>
         </div>

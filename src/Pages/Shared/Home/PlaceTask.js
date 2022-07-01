@@ -4,7 +4,22 @@ import Button from '../Button';
 
 const PlaceTask = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
-    const onSubmit = (data) => console.log(data);
+    const onSubmit = (data) => {
+        console.log(data)
+
+        const url = `http://localhost:5000/task`;
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(res => res.json())
+            .then(result => {
+                console.log(result)
+            })
+    };
     return (
         <div>
             <h2 className='text-center text-2xl'>Please Place your task</h2>
