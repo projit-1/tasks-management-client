@@ -14,7 +14,7 @@ const Calander = () => {
                     selected={date}
                     onSelect={setDate}
                 />
-                <p className='text-xl'>You hane Selected :{format(date, 'PP')}</p>
+                <p className='text-xl'>You have Selected : {format(date, 'PP')}</p>
             </div>
         </div>
     );

@@ -11,7 +11,7 @@ const ToDo = ({ task }) => {
     }, [])
     return (
         <div>
-            <h2 className='text-center text-2xl text-primary'>To-DoTaqsks: {tasks.length}</h2>
+            <h2 className='text-center text-2xl text-primary'>To-DoTasks: {tasks.length}</h2>
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-5'>
                 {
                     tasks.map(task => <Task
